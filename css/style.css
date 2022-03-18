@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body, html {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: url(../images/bixby_bridge.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 80%;
+    max-width: 600px;
+    color: white;
+}
+
+.header img {
+    height: 5rem;
+}
+
+.header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    width: 100%;
+    background-color: #00000080;
+}
+
+.header p {
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0.2rem;
+    right: 1rem;
+    font-size: 0.8rem;
+}
+
+.header a {
+    color: #FFFFFF;
+}
+
+.form-header {
+    margin: 2rem;
+}
+.form-section {
+    background-color: rgba#fffbfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.form {
+    background-color: #F6F7F8;
+    border-radius: 3px;
+    padding: 2rem;
+    margin: 0 0 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 0.5rem 0 #00000025;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+}
+
+.form-row {
+    width: 15rem;
+    margin: 2rem;
+}
+
+label {
+    margin-bottom: 0.75rem;
+}
+
+.form-row input {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 15rem;
+    padding: 0.45rem;
+    font-size: 0.8rem;
+}
+
+.form-footer {
+    padding-left: 4rem;
+}
+
+.form-footer a {
+    outline: none;
+    text-decoration: none;
+    color: #2B9AB6;
+}
+
+button {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #2B9AB6;
+    border: none;
+    border-radius: 3px;
+    padding: 0.625rem 2.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 0.5rem 0 #00000025;
+}
+
+button:hover {
+    background-color: #146E85;
+}
+
+button:active {
+    background-color: #2B9AB6;
+}
